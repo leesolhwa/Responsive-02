@@ -1,0 +1,47 @@
+/*768px~ : 태블릿, 데스크탑*/
+@media (min-width : 768px) {
+  header{
+    height: auto;
+    background: transparent;
+  }
+  .header_in{
+    width: 100%;
+    padding: 0;
+  }
+  h1{
+    float: none;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: 2px;
+    background: #91a7b0ae;
+  }
+  h1 span{
+    display: inline-block; /*줄바꿈 방지로*/
+  }
+  .trigger{
+    display: none;
+  }
+
+  nav{
+    display: block;
+    position: static;
+    text-align: center;
+    background: #91a7b068;
+    border-top: 1px solid rgba(255, 255, 255, 0.768);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.768);
+  }
+  nav ul{
+    display: inline-block;
+  }
+  nav li{
+    float: left;
+  }
+  nav li a{
+    display: block;
+    padding: 0 15px;
+    line-height: 40px;
+    border-top: none;
+    color: #fff;
+  }
+}
